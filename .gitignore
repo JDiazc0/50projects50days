@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# days
+src/components/days/day1/
+src/components/days/day2/
+src/components/days/day3/
+src/components/days/day4/
