@@ -1,0 +1,41 @@
+.floating-button {
+  position: absolute;
+  top: 45px;
+  display: inline-block;
+  padding: 10px 20px;
+  line-height: 1;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 10rem;
+  z-index: 1;
+  font-weight: bold;
+  color: rgba(102, 243, 116, 0.25);
+}
+
+.floating-button.left {
+  left: 45px;
+}
+
+.floating-button.right {
+  right: 45px;
+}
+
+.floating-button:hover {
+  color: rgba(102, 243, 116, 0.75);
+  transition: 1.5s ease;
+}
+
+@media only screen and (max-width: 650px) {
+  .floating-button {
+    top: 55px;
+    font-size: 7rem;
+  }
+
+  .floating-button.left {
+    left: 25px;
+  }
+
+  .floating-button.right {
+    right: 25px;
+  }
+}

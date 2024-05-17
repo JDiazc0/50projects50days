@@ -1,0 +1,56 @@
+.section-HiddenSearch {
+  height: 100vh;
+  background-image: linear-gradient(90deg, #eae9e9, #ebeaea);
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  display: flex;
+}
+
+.search-day4 {
+  position: relative;
+  height: 50px;
+}
+
+.search-day4 .input-day4 {
+  background-color: #fff;
+  border: 0;
+  border-radius: 25px;
+  font-size: 18px;
+  padding: 15px;
+  height: 50px;
+  width: 50px;
+  transition: width 0.3s ease;
+}
+
+.btn-day4 {
+  background-color: #fff;
+  border: 0;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  transition: transform 0.3s ease;
+}
+
+.btn-day4:focus,
+.input-day4:focus {
+  outline: none;
+}
+
+.search-day4.active-day4 .input-day4 {
+  width: 200px;
+
+  border-radius: 25px 0 0 25px;
+}
+
+.search-day4.active-day4 .btn-day4 {
+  transform: translateX(198px);
+
+  border-radius: 0 25px 25px 0;
+}
