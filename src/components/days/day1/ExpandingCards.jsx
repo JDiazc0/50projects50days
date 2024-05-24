@@ -24,7 +24,7 @@ export default function ExpandingCards() {
       <section id="1" className="section-Expanding">
         <FloatingButton
           day="1"
-          url="https://github.com/JDiazc0"
+          url="https://github.com/JDiazc0/50projects50days/tree/master/src/components/days/day1"
           position="left"
         />
         <div className="container">
