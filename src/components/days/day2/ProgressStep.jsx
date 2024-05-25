@@ -20,7 +20,7 @@ export default function ProgressStep() {
       <section id="2" className="section-ProgressStep">
         <FloatingButton
           day="2"
-          url="https://github.com/JDiazc0"
+          url="https://github.com/JDiazc0/50projects50days/tree/master/src/components/days/day2"
           position="left"
         />
         <div className="container-day2">
