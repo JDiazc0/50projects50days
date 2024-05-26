@@ -15,7 +15,11 @@ export default function RotatingNav() {
   return (
     <>
       <section id="3" className="section-RotatingNav">
-        <FloatingButton day="3" url="" position="right" />
+        <FloatingButton
+          day="3"
+          url="https://github.com/JDiazc0/50projects50days/tree/master/src/components/days/day3"
+          position="right"
+        />
         <div
           className={`container-day3 ${navState === true ? "show-nav" : ""}`}>
           <div className="circle-container-day3">
