@@ -33,7 +33,11 @@ export default function HiddenSearch() {
   return (
     <>
       <section id="4" className="section-HiddenSearch">
-        <FloatingButton day="4" url="" position="right" />
+        <FloatingButton
+          day="4"
+          url="https://github.com/JDiazc0/50projects50days/tree/master/src/components/days/day4"
+          position="right"
+        />
         <div
           className={`search-day4 ${
             activeSearch === true ? "active-day4" : ""
