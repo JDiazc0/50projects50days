@@ -6,6 +6,7 @@ import RotatingNav from "./components/days/day3/RotatingNav"; /*day3*/
 import HiddenSearch from "./components/days/day4/HiddenSearch"; /*day4*/
 import BlurryLoading from "./components/days/day5/BlurryLoading"; /*day5*/
 import ScrollAnimation from "./components/days/day6/ScrollAnimation"; /*day6*/
+import SplitLandingPage from "./components/days/day7/SplitLandingPage"; /*day7*/
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <HiddenSearch /> {/**day4 */}
       <BlurryLoading /> {/**day5 */}
       <ScrollAnimation /> {/**day6 */}
+      <SplitLandingPage /> {/**day7 */}
     </div>
   );
 }
