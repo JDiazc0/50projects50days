@@ -7,6 +7,7 @@ import HiddenSearch from "./components/days/day4/HiddenSearch"; /*day4*/
 import BlurryLoading from "./components/days/day5/BlurryLoading"; /*day5*/
 import ScrollAnimation from "./components/days/day6/ScrollAnimation"; /*day6*/
 import SplitLandingPage from "./components/days/day7/SplitLandingPage"; /*day7*/
+import FromWave from "./components/days/day8/FormWave"; /*day8*/
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <BlurryLoading /> {/**day5 */}
       <ScrollAnimation /> {/**day6 */}
       <SplitLandingPage /> {/**day7 */}
+      <FromWave /> {/**day8 */}
     </div>
   );
 }

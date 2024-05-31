@@ -1,0 +1,131 @@
+.section-FormWave {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2635;
+}
+
+.background-day8 {
+  width: 430px;
+  height: 520px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+.background-day8 .shape-day8 {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.shape-day8:first-child {
+  background: linear-gradient(#1845ad, #23a2f6);
+  left: -80px;
+  top: -20px;
+}
+
+.shape-day8:last-child {
+  background: linear-gradient(to right, #ff512f, #f09819);
+  right: -30px;
+  bottom: -50px;
+}
+
+.container-day8 {
+  background-color: rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(10px);
+  padding: 20px 40px;
+  border-radius: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+}
+
+.container-day8 h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.container-day8 b {
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-button-day8 {
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.form-button-day8:focus {
+  outline: 0;
+}
+
+.form-button-day8:active {
+  transform: scale(0.98);
+}
+
+.text-day8 {
+  margin-top: 30px;
+}
+
+.form-control-day8 {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 300px;
+}
+
+.form-button-day8 .input-day8 {
+  position: relative;
+  display: block;
+  z-index: 100px;
+  color: #fff;
+}
+
+.input-day8 {
+  height: 50px;
+  width: 100%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #e5e5e5;
+}
+
+.input-day8:focus {
+  outline: none;
+}
+
+.form-control-day8 label {
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  pointer-events: none;
+}
+
+.form-control-day8 label span {
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control-day8 input:focus + label span,
+.form-control-day8 input:valid + label span {
+  transform: translateY(-30px);
+}
