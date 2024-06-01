@@ -8,6 +8,7 @@ import BlurryLoading from "./components/days/day5/BlurryLoading"; /*day5*/
 import ScrollAnimation from "./components/days/day6/ScrollAnimation"; /*day6*/
 import SplitLandingPage from "./components/days/day7/SplitLandingPage"; /*day7*/
 import FromWave from "./components/days/day8/FormWave"; /*day8*/
+import SoundBoard from "./components/days/day9/SoundBoard"; /*day9*/
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <ScrollAnimation /> {/**day6 */}
       <SplitLandingPage /> {/**day7 */}
       <FromWave /> {/**day8 */}
+      <SoundBoard /> {/**day9 */}
     </div>
   );
 }
