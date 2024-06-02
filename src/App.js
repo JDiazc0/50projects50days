@@ -9,6 +9,7 @@ import ScrollAnimation from "./components/days/day6/ScrollAnimation"; /*day6*/
 import SplitLandingPage from "./components/days/day7/SplitLandingPage"; /*day7*/
 import FromWave from "./components/days/day8/FormWave"; /*day8*/
 import SoundBoard from "./components/days/day9/SoundBoard"; /*day9*/
+import DadJokes from "./components/days/day10/DadJokes"; /*day10*/
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <SplitLandingPage /> {/**day7 */}
       <FromWave /> {/**day8 */}
       <SoundBoard /> {/**day9 */}
+      <DadJokes /> {/**day10 */}
     </div>
   );
 }
