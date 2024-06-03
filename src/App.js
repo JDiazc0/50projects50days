@@ -10,6 +10,7 @@ import SplitLandingPage from "./components/days/day7/SplitLandingPage"; /*day7*/
 import FromWave from "./components/days/day8/FormWave"; /*day8*/
 import SoundBoard from "./components/days/day9/SoundBoard"; /*day9*/
 import DadJokes from "./components/days/day10/DadJokes"; /*day10*/
+import EventKeyCode from "./components/days/day11/EventKeyCode"; /*day11*/
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <FromWave /> {/**day8 */}
       <SoundBoard /> {/**day9 */}
       <DadJokes /> {/**day10 */}
+      <EventKeyCode /> {/**day11 */}
     </div>
   );
 }
