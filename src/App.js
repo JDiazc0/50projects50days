@@ -11,6 +11,7 @@ import FromWave from "./components/days/day8/FormWave"; /*day8*/
 import SoundBoard from "./components/days/day9/SoundBoard"; /*day9*/
 import DadJokes from "./components/days/day10/DadJokes"; /*day10*/
 import EventKeyCode from "./components/days/day11/EventKeyCode"; /*day11*/
+import Faq from "./components/days/day12/Faq"; /*day12*/
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <SoundBoard /> {/**day9 */}
       <DadJokes /> {/**day10 */}
       <EventKeyCode /> {/**day11 */}
+      <Faq /> {/**day12 */}
     </div>
   );
 }
