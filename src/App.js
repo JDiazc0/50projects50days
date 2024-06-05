@@ -12,6 +12,7 @@ import SoundBoard from "./components/days/day9/SoundBoard"; /*day9*/
 import DadJokes from "./components/days/day10/DadJokes"; /*day10*/
 import EventKeyCode from "./components/days/day11/EventKeyCode"; /*day11*/
 import Faq from "./components/days/day12/Faq"; /*day12*/
+import RandomChoicePicker from "./components/days/day13/RandomChoicePicker"; /*day13*/
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <DadJokes /> {/**day10 */}
       <EventKeyCode /> {/**day11 */}
       <Faq /> {/**day12 */}
+      <RandomChoicePicker /> {/**day13 */}
     </div>
   );
 }
