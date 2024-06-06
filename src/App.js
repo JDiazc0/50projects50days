@@ -13,6 +13,7 @@ import DadJokes from "./components/days/day10/DadJokes"; /*day10*/
 import EventKeyCode from "./components/days/day11/EventKeyCode"; /*day11*/
 import Faq from "./components/days/day12/Faq"; /*day12*/
 import RandomChoicePicker from "./components/days/day13/RandomChoicePicker"; /*day13*/
+import AnimatedNav from "./components/days/day14/AnimatedNav"; /*day14*/
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <EventKeyCode /> {/**day11 */}
       <Faq /> {/**day12 */}
       <RandomChoicePicker /> {/**day13 */}
+      <AnimatedNav /> {/**day14 */}
     </div>
   );
 }

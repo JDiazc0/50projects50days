@@ -1,0 +1,93 @@
+.section-AnimatedNav {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7f6f6;
+}
+
+.nav-day14 {
+  background-color: #fff;
+  padding: 20px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: width 0.6s linear;
+  overflow-x: hidden;
+}
+
+.nav-day14.active-day14 {
+  width: 350px;
+}
+
+.nav-day14 .ul-14 {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 0;
+  transition: width 0.6s linear;
+}
+
+.nav-day14.active-day14 .ul-14 {
+  width: 100%;
+}
+
+.nav-day14 .ul-14 .li-14 {
+  transform: rotateY(0deg);
+  opacity: 0;
+  transition: transform 0.6s linear, opacity 0.6s linear;
+}
+
+.nav-day14.active-day14 .ul-14 .li-14 {
+  opacity: 1;
+  transform: rotateY(360deg);
+}
+
+.nav-day14 .ul-14 a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.toggle-day14 {
+  background-color: #fff;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+  height: 30px;
+  width: 30px;
+}
+
+.toggle-day14:focus {
+  outline: 0;
+}
+
+.toggle-day14 .line {
+  background-color: #5290f9;
+  height: 3px;
+  width: 20px;
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  transition: transform 0.6s linear;
+}
+
+.toggle-day14 .line2 {
+  top: auto;
+  bottom: 7px;
+}
+
+.nav-day14.active-day14 .toggle-day14 .line1 {
+  transform: rotate(-765deg) translateY(9px);
+}
+
+.nav-day14.active-day14 .toggle-day14 .line2 {
+  transform: rotate(765deg) translateY(-9px);
+}
