@@ -1,0 +1,25 @@
+.section-IncrementingCounter {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to top, #cf9cef, #e6c7fa);
+}
+
+.counter-container-day15 {
+  justify-content: center;
+  text-align: center;
+  margin: 50px;
+  color: white;
+}
+
+.counter-day15 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.counter-container-day15 span {
+  font-family: 200;
+  font-size: 1.5rem;
+}
