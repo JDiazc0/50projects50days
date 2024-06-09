@@ -16,6 +16,7 @@ import RandomChoicePicker from "./components/days/day13/RandomChoicePicker"; /*d
 import AnimatedNav from "./components/days/day14/AnimatedNav"; /*day14*/
 import IncrementingCounter from "./components/days/day15/IncrementingCounter"; /*day15*/
 import DrinkWater from "./components/days/day16/DrinkWater"; /*day16*/
+import MovieApp from "./components/days/day17/MovieApp"; /* day17 */
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
       <AnimatedNav /> {/**day14 */}
       <IncrementingCounter /> {/**day15 */}
       <DrinkWater /> {/**day16 */}
+      <MovieApp /> {/**day17 */}
     </div>
   );
 }
