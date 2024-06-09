@@ -1,14 +1,14 @@
 import "./App.css";
 import NavBar from "./components/NavBar";
-import ExpandingCards from "./components/days/day1/ExpandingCards"; /*day1*/
-import ProgressStep from "./components/days/day2/ProgressStep"; /*day2*/
-import RotatingNav from "./components/days/day3/RotatingNav"; /*day3*/
-import HiddenSearch from "./components/days/day4/HiddenSearch"; /*day4*/
-import BlurryLoading from "./components/days/day5/BlurryLoading"; /*day5*/
-import ScrollAnimation from "./components/days/day6/ScrollAnimation"; /*day6*/
-import SplitLandingPage from "./components/days/day7/SplitLandingPage"; /*day7*/
-import FromWave from "./components/days/day8/FormWave"; /*day8*/
-import SoundBoard from "./components/days/day9/SoundBoard"; /*day9*/
+import ExpandingCards from "./components/days/day01/ExpandingCards"; /*day1*/
+import ProgressStep from "./components/days/day02/ProgressStep"; /*day2*/
+import RotatingNav from "./components/days/day03/RotatingNav"; /*day3*/
+import HiddenSearch from "./components/days/day04/HiddenSearch"; /*day4*/
+import BlurryLoading from "./components/days/day05/BlurryLoading"; /*day5*/
+import ScrollAnimation from "./components/days/day06/ScrollAnimation"; /*day6*/
+import SplitLandingPage from "./components/days/day07/SplitLandingPage"; /*day7*/
+import FromWave from "./components/days/day08/FormWave"; /*day8*/
+import SoundBoard from "./components/days/day09/SoundBoard"; /*day9*/
 import DadJokes from "./components/days/day10/DadJokes"; /*day10*/
 import EventKeyCode from "./components/days/day11/EventKeyCode"; /*day11*/
 import Faq from "./components/days/day12/Faq"; /*day12*/
@@ -36,7 +36,7 @@ function App() {
       <RandomChoicePicker /> {/**day13 */}
       <AnimatedNav /> {/**day14 */}
       <IncrementingCounter /> {/**day15 */}
-      <DrinkWater />
+      <DrinkWater /> {/**day16 */}
     </div>
   );
 }
