@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import "./DrinkWater.css";
 import FloatingButton from "../../FloatingButton";
 
@@ -20,18 +20,18 @@ export default function DrinkWater() {
     setGlassDrinked(newGlassDrinked);
   };
 
-  const updateBigCup = () => {
+  const updateBigCup = useCallback(() => {
     const fullCups = glassDrinked.filter(Boolean).length;
     const totalPercentage = (fullCups / totalCups) * 100;
     const remainedLiters = goalLiters - (cupVolume * fullCups) / 1000;
 
     setPercentageGoal(totalPercentage);
     setLitersRemained(remainedLiters);
-  };
+  }, [glassDrinked, totalCups, goalLiters, cupVolume]);
 
   useEffect(() => {
     updateBigCup();
-  }, [glassDrinked]);
+  }, [glassDrinked, updateBigCup]);
 
   return (
     <section id="16" className="section-DrinkWater">
