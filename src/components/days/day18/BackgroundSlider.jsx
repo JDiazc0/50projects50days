@@ -36,6 +36,11 @@ export default function BackgroundSlider() {
 
   return (
     <section id="18" className="section-BackgroundSlider">
+      <FloatingButton
+        day="18"
+        url="https://github.com/JDiazc0/50projects50days/tree/master/src/components/days/day18"
+        position="left"
+      />
       <div className="slider-container">
         {backgrounds.map((background, index) => (
           <div
