@@ -18,6 +18,7 @@ import IncrementingCounter from "./components/days/day15/IncrementingCounter"; /
 import DrinkWater from "./components/days/day16/DrinkWater"; /*day16*/
 import MovieApp from "./components/days/day17/MovieApp"; /* day17 */
 import BackgroundSlider from "./components/days/day18/BackgroundSlider"; /* day18 */
+import ThemeClock from "./components/days/day19/ThemeClock"; /* day19 */
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
       <DrinkWater /> {/**day16 */}
       <MovieApp /> {/**day17 */}
       <BackgroundSlider /> {/**day18 */}
+      <ThemeClock /> {/**day19 */}
     </div>
   );
 }
