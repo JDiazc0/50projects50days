@@ -19,6 +19,7 @@ import DrinkWater from "./components/days/day16/DrinkWater"; /*day16*/
 import MovieApp from "./components/days/day17/MovieApp"; /* day17 */
 import BackgroundSlider from "./components/days/day18/BackgroundSlider"; /* day18 */
 import ThemeClock from "./components/days/day19/ThemeClock"; /* day19 */
+import RippleEffect from "./components/days/day20/RippleEffect"; /* day20*/
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
       <MovieApp /> {/**day17 */}
       <BackgroundSlider /> {/**day18 */}
       <ThemeClock /> {/**day19 */}
+      <RippleEffect /> {/**day20 */}
     </div>
   );
 }
