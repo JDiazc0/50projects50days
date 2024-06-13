@@ -20,6 +20,7 @@ import MovieApp from "./components/days/day17/MovieApp"; /* day17 */
 import BackgroundSlider from "./components/days/day18/BackgroundSlider"; /* day18 */
 import ThemeClock from "./components/days/day19/ThemeClock"; /* day19 */
 import RippleEffect from "./components/days/day20/RippleEffect"; /* day20*/
+import DragAndDrop from "./components/days/day21/DragAndDrop"; /* day21 */
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
       <BackgroundSlider /> {/**day18 */}
       <ThemeClock /> {/**day19 */}
       <RippleEffect /> {/**day20 */}
+      <DragAndDrop /> {/**day21 */}
     </div>
   );
 }
