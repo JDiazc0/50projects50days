@@ -21,6 +21,7 @@ import BackgroundSlider from "./components/days/day18/BackgroundSlider"; /* day1
 import ThemeClock from "./components/days/day19/ThemeClock"; /* day19 */
 import RippleEffect from "./components/days/day20/RippleEffect"; /* day20*/
 import DragAndDrop from "./components/days/day21/DragAndDrop"; /* day21 */
+import DrawingApp from "./components/days/day22/DrawingApp"; /* day22 */
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
       <ThemeClock /> {/**day19 */}
       <RippleEffect /> {/**day20 */}
       <DragAndDrop /> {/**day21 */}
+      <DrawingApp /> {/**day22 */}
     </div>
   );
 }
