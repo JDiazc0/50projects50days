@@ -1,0 +1,24 @@
+.section-elevator {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.elevator-btn {
+  border: none;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 50px;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.elevator-btn:focus {
+  border: none;
+}
