@@ -24,6 +24,7 @@ import DragAndDrop from "./components/days/day21/DragAndDrop"; /* day21 */
 import DrawingApp from "./components/days/day22/DrawingApp"; /* day22 */
 import KineticLoader from "./components/days/day23/KineticLoader"; /* day23 */
 import ContentPlaceholder from "./components/days/day24/ContentPlaceholder"; /* day24 */
+import DoubleVerticalSlider from "./components/days/day26/DoubleVerticalSlider";
 import Elevator from "./components/days/elevator/Elevator";
 
 function App() {
@@ -55,6 +56,8 @@ function App() {
       <KineticLoader /> {/**day23 */}
       <ContentPlaceholder />
       {/*day24*/}
+      <DoubleVerticalSlider />
+      {/**day26 */}
       <Elevator /> {/**Elevator */}
     </div>
   );
