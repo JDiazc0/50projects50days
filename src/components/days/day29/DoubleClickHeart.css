@@ -1,0 +1,41 @@
+.section-DoubleClickHeart {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.icon-day29 {
+  color: red;
+}
+
+.love-me {
+  height: 440px;
+  width: 300px;
+  background: url("https://images.unsplash.com/photo-1504215680853-026ed2a45def?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80")
+    no-repeat center center/cover;
+
+  cursor: pointer;
+  max-width: 100%;
+  position: relative;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  overflow: hidden;
+}
+
+.love-me .like-animation {
+  position: absolute;
+  color: red;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%) scale(0);
+  animation: scale 0.5s ease-out;
+}
+
+@keyframes scale {
+  to {
+    transform: translate(-50%, -50%) scale(3);
+    opacity: 0;
+  }
+}

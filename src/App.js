@@ -27,6 +27,7 @@ import ContentPlaceholder from "./components/days/day24/ContentPlaceholder"; /* 
 import DoubleVerticalSlider from "./components/days/day26/DoubleVerticalSlider"; /* day26*/
 import ToastNotification from "./components/days/day27/ToastNotification"; /* day27 */
 import GithubProfile from "./components/days/day28/GithubProfile"; /* day28 */
+import DoubleClickHeart from "./components/days/day29/DoubleClickHeart"; /* day29 */
 import Elevator from "./components/days/elevator/Elevator";
 
 function App() {
@@ -62,6 +63,7 @@ function App() {
       {/**day26 */}
       <ToastNotification /> {/**day27 */}
       <GithubProfile /> {/**day28 */}
+      <DoubleClickHeart /> {/**day29 */}
       <Elevator /> {/**Elevator */}
     </div>
   );
