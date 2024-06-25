@@ -28,6 +28,7 @@ import DoubleVerticalSlider from "./components/days/day26/DoubleVerticalSlider";
 import ToastNotification from "./components/days/day27/ToastNotification"; /* day27 */
 import GithubProfile from "./components/days/day28/GithubProfile"; /* day28 */
 import DoubleClickHeart from "./components/days/day29/DoubleClickHeart"; /* day29 */
+import AutoText from "./components/days/day30/AutoText";
 import Elevator from "./components/days/elevator/Elevator";
 
 function App() {
@@ -64,6 +65,7 @@ function App() {
       <ToastNotification /> {/**day27 */}
       <GithubProfile /> {/**day28 */}
       <DoubleClickHeart /> {/**day29 */}
+      <AutoText /> {/**day30 */}
       <Elevator /> {/**Elevator */}
     </div>
   );

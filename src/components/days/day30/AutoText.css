@@ -1,0 +1,42 @@
+.section-AutoText {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #e9a16e;
+}
+
+.h3-day30 {
+  font-size: 48px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.buttons-speed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.decrease,
+.increase {
+  margin: 0 10px;
+  background: #d9732a;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.disable {
+  pointer-events: none;
+}
+
+.icon-day30 {
+  color: white;
+}
