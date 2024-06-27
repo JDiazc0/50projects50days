@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./AutoText.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMinus, faPlus } from "@fortawesome/free-solid-svg-icons";
+import FloatingButton from "../../FloatingButton";
 
 export default function AutoText() {
   const phrase = "Follow Me on Instagram @dica_dev";
@@ -27,6 +28,11 @@ export default function AutoText() {
   return (
     <>
       <section id="30" className="section-AutoText">
+        <FloatingButton
+          day="30"
+          url="https://github.com/JDiazc0/50projects50days/tree/master/src/components/days/day30"
+          position="left"
+        />
         <h3 className="h3-day30">{phrase.slice(0, idx)}</h3>
         <div className="buttons-speed">
           <p>Speed</p>
