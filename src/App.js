@@ -30,6 +30,7 @@ import GithubProfile from "./components/days/day28/GithubProfile"; /* day28 */
 import DoubleClickHeart from "./components/days/day29/DoubleClickHeart"; /* day29 */
 import AutoText from "./components/days/day30/AutoText"; /*day30 */
 import PasswordGenerator from "./components/days/day31/PasswordGenerator"; /*day31 */
+import ThreeChooseMeme from "./components/days/day32/ThreeChooseMeme"; /*day32 */
 import Elevator from "./components/days/elevator/Elevator";
 
 function App() {
@@ -68,6 +69,7 @@ function App() {
       <DoubleClickHeart /> {/**day29 */}
       <AutoText /> {/**day30 */}
       <PasswordGenerator /> {/**day31 */}
+      <ThreeChooseMeme /> {/**day32 */}
       <Elevator /> {/**Elevator */}
     </div>
   );
