@@ -42,10 +42,10 @@ export default function PasswordGenerator() {
     }
 
     for (let i = 0; i < length; i += typesCount) {
-      typesArr.forEach((type) => {
-        const funcName = Object.keys(type)[0];
+      for (let j = 0; j < typesArr.length; j++) {
+        const funcName = Object.keys(typesArr[j])[0];
         generatedPassword += randomFunc[funcName]();
-      });
+      }
     }
 
     const finalPassword = generatedPassword.slice(0, length);
