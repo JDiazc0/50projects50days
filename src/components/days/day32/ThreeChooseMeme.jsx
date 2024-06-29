@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./ThreeChooseMeme.css";
+import FloatingButton from "../../FloatingButton";
 
 export default function ThreeChooseMeme() {
   const [trustYourFriends, setTrustYourFriends] = useState(false);
@@ -33,6 +34,11 @@ export default function ThreeChooseMeme() {
 
   return (
     <section id="32" className="section-ThreeChooseMeme">
+      <FloatingButton
+        day="32"
+        url="https://github.com/JDiazc0/50projects50days/tree/master/src/components/days/day32"
+        position="left"
+      />
       <h3 className="h3-day32">Having a good life:</h3>
       <div className="toggle-container">
         <input
