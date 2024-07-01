@@ -32,6 +32,7 @@ import AutoText from "./components/days/day30/AutoText"; /*day30 */
 import PasswordGenerator from "./components/days/day31/PasswordGenerator"; /*day31 */
 import ThreeChooseMeme from "./components/days/day32/ThreeChooseMeme"; /*day32 */
 import NoteApp from "./components/days/day33/NoteApp"; /*day33 */
+import AnimatedCountdown from "./components/days/day34/AnimatedCountdown";
 import Elevator from "./components/days/elevator/Elevator";
 
 function App() {
@@ -72,6 +73,7 @@ function App() {
       <PasswordGenerator /> {/**day31 */}
       <ThreeChooseMeme /> {/**day32 */}
       <NoteApp /> {/**day33 */}
+      <AnimatedCountdown />
       <Elevator /> {/**Elevator */}
     </div>
   );
