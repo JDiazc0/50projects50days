@@ -4,10 +4,10 @@ import FloatingButton from "../../FloatingButton";
 
 export default function Hoverboard() {
   const containerRef = useRef(null);
-  const colors = ["#e74c3c", "#8e44ad", "#3498db", "#e67e22", "#2ecc71"];
   const SQUARES = 500;
 
   useEffect(() => {
+    const colors = ["#e74c3c", "#8e44ad", "#3498db", "#e67e22", "#2ecc71"];
     const container = containerRef.current;
 
     for (let i = 0; i < SQUARES; i++) {
@@ -44,7 +44,7 @@ export default function Hoverboard() {
         container.removeChild(square);
       }
     };
-  }, [colors, SQUARES]);
+  }, [SQUARES]);
 
   return (
     <section id="36" className="section-hoverBoard">
