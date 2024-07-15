@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./AnimatedCountdown.css";
+import FloatingButton from "../../FloatingButton";
 
 export default function AnimatedCountdown() {
   const [isCounting, setIsCounting] = useState(true);
@@ -49,6 +50,11 @@ export default function AnimatedCountdown() {
 
   return (
     <section id="34" className="section-AnimatedCountdown">
+      <FloatingButton
+        day="34"
+        url="https://github.com/JDiazc0/50projects50days/tree/master/src/components/days/day34"
+        position="left"
+      />
       <div className="counter-day34" ref={counterRef}>
         <div className="nums">
           {[3, 2, 1, 0].map((num, idx) => (
