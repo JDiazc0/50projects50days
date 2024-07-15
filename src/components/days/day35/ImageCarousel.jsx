@@ -6,6 +6,7 @@ import React, {
   useMemo,
 } from "react";
 import "./ImageCarousel.css";
+import FloatingButton from "../../FloatingButton";
 
 export default function ImageCarousel() {
   const [idx, setIdx] = useState(0);
@@ -59,6 +60,11 @@ export default function ImageCarousel() {
 
   return (
     <section id="35" className="section-ImageCarousel">
+      <FloatingButton
+        day="35"
+        url="https://github.com/JDiazc0/50projects50days/tree/master/src/components/days/day35"
+        position="left"
+      />
       <div className="carousel">
         <div
           className="image-container"

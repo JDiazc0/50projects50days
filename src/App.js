@@ -34,6 +34,7 @@ import ThreeChooseMeme from "./components/days/day32/ThreeChooseMeme"; /*day32 *
 import NoteApp from "./components/days/day33/NoteApp"; /*day33 */
 import AnimatedCountdown from "./components/days/day34/AnimatedCountdown"; /*day34 */
 import ImageCarousel from "./components/days/day35/ImageCarousel"; /*day35 */
+import Hoverboard from "./components/days/day36/Hoverboard"; /*day36 */
 import Elevator from "./components/days/elevator/Elevator";
 
 function App() {
@@ -76,6 +77,7 @@ function App() {
       <NoteApp /> {/**day33 */}
       <AnimatedCountdown /> {/**day34 */}
       <ImageCarousel /> {/**day35 */}
+      <Hoverboard /> {/**day36 */}
       <Elevator /> {/**Elevator */}
     </div>
   );
