@@ -36,6 +36,7 @@ import AnimatedCountdown from "./components/days/day34/AnimatedCountdown"; /*day
 import ImageCarousel from "./components/days/day35/ImageCarousel"; /*day35 */
 import Hoverboard from "./components/days/day36/Hoverboard"; /*day36 */
 import MobileNav from "./components/days/day38/MobileNav"; /*day38 */
+import Boxes3D from "./components/days/day39/Boxes3D"; /*day39 */
 import Elevator from "./components/days/elevator/Elevator";
 
 function App() {
@@ -80,6 +81,7 @@ function App() {
       <ImageCarousel /> {/**day35 */}
       <Hoverboard /> {/**day36 */}
       <MobileNav /> {/**day38 */}
+      <Boxes3D /> {/**day39 */}
       <Elevator /> {/**Elevator */}
     </div>
   );
